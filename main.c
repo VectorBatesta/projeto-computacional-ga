@@ -93,6 +93,7 @@ int main(int argc, char** argv) {
             "2-Resolutor INVERSA [matriz necessaria: Mij=(x,x)]\n"
             "[DIGITAR ESCOLHA]\n");
 
+
     int escolha;
     scanf("%i", &escolha);
     getchar();
@@ -179,8 +180,11 @@ int main(int argc, char** argv) {
                     fprintf(saida, "%.5f\t", MATRIX[i][j]);
                 fprintf(saida, "\n");
             }
+
+
         }
     }
+
 
     getchar();
     return (EXIT_SUCCESS);
